@@ -2,13 +2,18 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	/* new thing */
+	margin-left: 10px;
 }
-h2 {
+a:focus, a:hover {
+	 font-style: italic;
+}
+header h2 {
 	font-size: 170%;
 	color: #800000;
 	text-indent: 30px;
 }
-h3 {
+header h3 {
 	font-size: 130%;
 	font-style: italic;
 	text-indent: 30px;
@@ -18,7 +23,9 @@ h3 {
 header img {
 	float: left;
 }
-
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
 /* the styles for the section */
 main {
 	clear: left;
@@ -33,9 +40,7 @@ main h2 {
 main h3 {
 	font-size: 130%
 }
-a:hover, a:visited {
-	font-style: italic;
-}
+
 /* the styles for the footer */
 footer p {
 	text-align: center;
